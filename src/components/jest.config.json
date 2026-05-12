@@ -1,0 +1,4 @@
+{
+  "passWithNoTests": true,
+  "reporters": ["default", "jest-junit"]
+}
