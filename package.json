@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "jest --passWithNoTests",
+    "test": "jest --config jest.config.cjs --passWithNoTests",
     "lint": "eslint .",
     "preview": "vite preview"
   },
