@@ -1,4 +1,11 @@
 {
   "passWithNoTests": true,
-  "reporters": ["default", "jest-junit"]
+  "reporters": ["default", "jest-junit"],
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.[jt]sx?$": "babel-jest"
+  },
+  "moduleNameMapper": {
+    "\\.(css|less|scss|sass)$": "<rootDir>/__mocks__/styleMock.js"
+  }
 }
